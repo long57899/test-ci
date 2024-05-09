@@ -1,0 +1,25 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "es6": true,
+        "browser": true,
+        "jest": true,
+        "node": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2021,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-restricted-syntax": [
+            "error",
+            "LabeledStatement",
+            "WithStatement"
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages"
+        ],
+        "linebreak-style": ["error", "windows"]
+   }
+}
